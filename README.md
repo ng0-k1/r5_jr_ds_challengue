@@ -112,7 +112,8 @@ El resultado de esta consulta fue el siguiente:
 
 
 
-**Con relación al punto 3 y 4 se puede consultar estos a traves de ./notebooks/Análisis Descriptivo.ipynb**
+- **Con relación al punto 3 y 4 se puede consultar estos puntos en la ruta _/notebooks/Análisis Descriptivo.ipynb_**
+- Para el punto 4.1 se puede encontrar los datos del modelo [**Aquí**](./models/modelo_clasificador.pkl) y los datos del pipeline [**Aquí**](models/pipeline_data.pkl)
 
 
 **Para la creación ei mplementación de un tablero, se opto por el uso de Power BI, en estas se realizaron algunos analisis en relación a las columnas más relevantes para la detección de Fraude**
