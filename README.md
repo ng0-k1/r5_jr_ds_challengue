@@ -1,6 +1,6 @@
 # PRUEBA DATA SCIENTIST R5
 
-El siguiente proyecto es creado para darle solución al reto de R5 para el puesto de  Data Scientist Junior
+El presente proyecto es creado para darle solución al reto de R5 para el puesto de  Data Scientist Junior
 
 
 ## Introducción
