@@ -1,10 +1,10 @@
 # PRUEBA DATA SCIENTIST R5
 
-El presente proyecto es creado para darle solución al reto de R5 para el puesto de  Data Scientist Junior
+El presente proyecto es creado para darle solución al desafio de R5 para el puesto de  Data Scientist Junior
 
 
 ## Introducción
-El reto se basa en desarrollar lo siguiente:
+El desafio se basa en desarrollar lo siguiente:
  - Una base de datos en el gestor postgresql
     - Dentro de esta base de datos se debe crear una consulta para ver el porcentaje de fraudes y siniestros 
 - A traves de Python conectarse a la base de datos creada.
@@ -14,7 +14,7 @@ El reto se basa en desarrollar lo siguiente:
 
 - Se debe crear un tablero interactivo que permita visualizar los principales hallazgos encontrados en el punto anterior.
 
-- Se finaliza el reto al realizar recomendaciones y unas acciones posibles a tomar para evitar fraude.
+- Se finaliza el desafio al realizar recomendaciones y unas acciones posibles a tomar para evitar fraude.
 
 ## Solución Paso a Paso
 Para la solución se realiza una explicación paso a paso para poder replicar el experimento y los resultados obtenidos.
