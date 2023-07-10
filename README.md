@@ -109,25 +109,17 @@ ORDER BY monthh, weekofmonth;
 El resultado de esta consulta fue el siguiente:
 
 <img src="/data/salida_obtenida.png" alt="Resultado de la consulta SQL">
-<<<<<<< HEAD
-=======
-
->>>>>>> master
 
 
-**Con relación al punto 3 y 4 se puede consultar estos a traves de ./notebooks/Análisis Descriptivo.ipynb**
 
-**Con relación al punto 3 y 4 se puede consultar estos a traves de ./notebooks/Análisis Descriptivo.ipynb**
+- **Con relación al punto 3 y 4 se puede consultar estos puntos en la ruta _/notebooks/Análisis Descriptivo.ipynb_**
+- Para el punto 4.1 se puede encontrar los datos del modelo [**Aquí**](./models/modelo_clasificador.pkl) y los datos del pipeline [**Aquí**](models/pipeline_data.pkl)
+
 
 **Para la creación ei mplementación de un tablero, se opto por el uso de Power BI, en estas se realizaron algunos analisis en relación a las columnas más relevantes para la detección de Fraude**
 Para consultar el tablero  puede hacerlo [**Aquí**](https://app.powerbi.com/view?r=eyJrIjoiMWQ0YjViOTUtODAzZC00MjM5LWFiMTEtYmQxZDhkMjExZWRjIiwidCI6IjA3ZGE2N2EwLTFmNDMtNGU4Yy05NzdmLTVmODhiNjQ3MGVlNiIsImMiOjR9) o si desea puede ejecutar este tablero a traves de la ejecución del archivo que esta en [**la siguiente carpeta**](./data/data_tablero_powerbi.pbix)
 
-**Para la creación ei mplementación de un tablero, se opto por el uso de Power BI, en estas se realizaron algunos analisis en relación a las columnas más relevantes para la detección de Fraude**
-Para consultar el tablero  puede hacerlo [**Aquí**](https://app.powerbi.com/view?r=eyJrIjoiMWQ0YjViOTUtODAzZC00MjM5LWFiMTEtYmQxZDhkMjExZWRjIiwidCI6IjA3ZGE2N2EwLTFmNDMtNGU4Yy05NzdmLTVmODhiNjQ3MGVlNiIsImMiOjR9) o si desea puede ejecutar este tablero a traves de la ejecución del archivo que esta en [**la siguiente carpeta**](./data/data_tablero_powerbi.pbix)
 
-**Respecto al punto 4 y al punto 6, para las conclusiones y las acciones a tomar, se opta por analizar y recomendar lo siguiente:**
-
-<<<<<<< HEAD
 **Respecto al punto 4 y al punto 6, para las conclusiones y las acciones a tomar, se opta por analizar y recomendar lo siguiente:**
 
 A traves del analisis respectivo se pudieron encontrar algunos elementos que fueron de interes porque en general pueden darnos una idea de a qué datos podemos darle un mayor foco para saber si las personas representan un riesgo respecto al fraude.
@@ -139,36 +131,17 @@ A traves del analisis respectivo se pudieron encontrar algunos elementos que fue
 - Con relación al tipo de seguro (BasePolicy) se encontro una relación respecto al fraude, ya que aquellas personas que tienen seguro 'Todo Riesgo' son más susceptibles a cometer Fraude, aun cuando estos no representan la mayoria de manera general.
 
 - Respecto al costo del seguro se encontro que aquellas personas que tienen seguros en el rango de 400, representan el 92.7% de los fraudes, lo cual nos da una idea de que en estos seguros se debe prestar mayor atención ya que suelen ser más susceptibles a las estafas.
-=======
-A traves del analisis respectivo se pudieron encontrar algunos elementos que fueron de interes porque en general pueden darnos una idea de a qué datos podemos darle un mayor foco para saber si las personas representan un riesgo respecto al fraude.
-
-- Respecto a la categoría del vehículo (VehicleCatergory) se observa que los Sedan son los autos más susceptibles a ser utilizados en fraudes, pero esto puede deberse a aspectos como la generalización de estos vehiculos, ya que representa la mayoria de autos (9670 autos).
-
-- Para el estado civil (MaritalStatus) se pudo observar que las personas casadas representan un mayor porcentaje de personas que cometen fraude y esto se puede deber a aspectos sociales y economicos, que pueden llevar a las personas casadas a cometer fraude, tambien es importante mencionar que en su mayoria los hombres son aquellos que cometen más fraude, de una manera mucho más generalizada que las mujeres.
-
-- Con relación al tipo de seguro (BasePolicy) se encontro una relación respecto al fraude, ya que aquellas personas que tienen seguro 'Todo Riesgo' son más susceptibles a cometer Fraude, aun cuando estos no representan la mayoria de manera general.
-
-- Respecto al costo del seguro se encontro que aquellas personas que tienen seguros en el rango de 400, representan el 92.7% de los fraudes, lo cual nos da una idea de que en estos seguros se debe prestar mayor atención ya que suelen ser más susceptibles a las estafas.
-
-- Por ultimo es importante mencionar que la edad juega un papel demasiado importante, ya que aquellas personas que tienen entre 16 a 23 años y 65 o más años, son los que tienen mayor susceptibilidad a cometer fraude, esto puede deberse a diversos factores tanto sociales como economicos, ya que una situación financiera precaria puede llevar a las personas a participar de actividades fraudulentas para obtener algo de dinero.
->>>>>>> master
 
 - Por ultimo es importante mencionar que la edad juega un papel demasiado importante, ya que aquellas personas que tienen entre 16 a 23 años y 65 o más años, son los que tienen mayor susceptibilidad a cometer fraude, esto puede deberse a diversos factores tanto sociales como economicos, ya que una situación financiera precaria puede llevar a las personas a participar de actividades fraudulentas para obtener algo de dinero.
 
-**Respecto a las decisiones a tomar para evitar el fraude**
 
-<<<<<<< HEAD
 **Respecto a las decisiones a tomar para evitar el fraude**
 
 Se pueden llegar a varias acciones para evitar el fraude de manera generalizada, dentro de estos se pueden realizar:
 
 - Implementar revisiones más robustas para personas menores de 23 años y mayores de 65.
 - Realizar peritajes más intensivos cuando los reclamantes sean hombres y personas casadas.
-=======
-Se pueden llegar a varias acciones para evitar el fraude de manera generalizada, dentro de estos se pueden realizar:
 
-- Implementar revisiones más robustas para personas menores de 23 años y mayores de 65.
-- Realizar peritajes más intensivos cuando los reclamantes sean hombres y personas casadas.
+- Evaluar la opción de dar paquetes más robustos que incluyan sensores que permitan monitorizar el carro cuando los seguros sean todo riesgo o caundo los carros sean Sedan.
 
->>>>>>> master
 - Evaluar la opción de dar paquetes más robustos que incluyan sensores que permitan monitorizar el carro cuando los seguros sean todo riesgo o caundo los carros sean Sedan.
