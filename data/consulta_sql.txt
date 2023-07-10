@@ -1,0 +1,9 @@
+SELECT
+DISTINCT monthh,
+weekofmonth,
+dayofweek,
+ROUND((SUM(fraudfound_p) OVER (PARTITION BY monthh) * 100) / NULLIF(COUNT(fraudfound_p) OVER (PARTITION BY monthh), 0.0),2) AS percentage_fraud_month,
+ROUND((SUM(fraudfound_p) OVER (PARTITION BY monthh, weekofmonth) * 100) / NULLIF(COUNT(fraudfound_p) OVER (PARTITION BY monthh, weekofmonth), 0.0),2) AS percentage_fraud_month_week,
+ROUND((SUM(fraudfound_p) OVER (PARTITION BY monthh, weekofmonth, dayofweek) * 100) / NULLIF(COUNT(fraudfound_p) OVER (PARTITION BY monthh, weekofmonth, dayofweek), 0.0),2) AS percentage_fraud_month_week_day
+FROM fraudes
+ORDER BY monthh, weekofmonth;
